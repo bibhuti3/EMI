@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="cover.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <section class="coverDetails container-md">
+        <div class="mb-3" style="max-width: 40%; margin-left: 30%;">
+            <label for="exampleFormControlInput1" class="form-label" style="color: aliceblue;" >Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jack Jones" required >
+     
+          </div>
+          <div class="mb-3" style="max-width: 40%; margin-left: 30%;">
+            <label for="exampleFormControlInput1" class="form-label" style="color: aliceblue;" >Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Jack.Jones@example.com" required>
+           
+          </div>
+          <div class="mb-3" style="max-width: 40%; margin-left: 30%;">
+            <label for="exampleFormControlInput1" class="form-label" style="color: aliceblue;" >Phone</label>
+            <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="9123547896" required>
+            
+          </div>
+         
+         
+      </section>
+
+      <section class="coverCaptcha">
+        <div class="center">
+          <h1 id="captchaHeading">Captcha Validator Using HTML, CSS and JavaScript</h1>
+          <div id="captchaBackground">
+          <canvas id="captcha">captcha text</canvas>
+          <input id="textBox" type="text" name="text">
+          <div id="buttons">
+          <input id="submitButton" type="submit" required>
+        
+          </div>
+          <span id="output"></span>
+          </div>
+          </div>
+      </section>
+      <div class="mb-3" style="max-width: 40%; margin-left: 45%;">
+      <button type="button" class="btn btn-danger"st onclick="reset()">Reset</button>
+      <button type="button" class="btn btn-success"><a href="emicalculator.html" style="text-decoration:none !important; color:inherit;">Lets,Go!</a></button>
+        </div>
+      
+      <script src="cover.js"></script>
+</body>
+</html>
